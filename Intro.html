@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+</head>
+  <body>
+    <div ng-app="" data-ng-init="firstName='Pikachu'">
+      <p>Name: <input type="text" ng-model="pikachu" /></p>
+      <h1>Hello: {{pikachu}}</h1>
+      <p>pikachu</p>
+    </break>
+    <p>Input something in the input box:</p>
+<p>Name: <input type="text" ng-model="pikachu1"></p>
+<p>{{pikachu1}}</p>
+</break>
+      <p>My first expression: {{ 5 + 5 }}</p>
+      <p>Negative Expression: {{ 5-20 }}</p>
+</break>
+<p>The name is <span data-ng-bind="firstName"></span></p>
+    </div>
+  </body>
+</html>
